@@ -11,9 +11,10 @@ The design was simulated using **Icarus Verilog** and **GTKWave**.
 ---
 
 ## UART Frame Format
+```text
 Idle → Start → D0 → D1 → D2 → D3 → D4 → D5 → D6 → D7 → Stop <br>
   1          0            LSB --------------------------> MSB          1
-
+```
 ---
 
 ## Project Structure
@@ -74,10 +75,10 @@ Features:
 ### 4. Top Module
 The top module connects all UART components.
 ```text
-Baud Rate Generator <br>
-│ <br>
-├── tx_enable → Transmitter <br>
-└── rx_enable → Receiver <br>
+Baud Rate Generator 
+│ 
+├── tx_enable → Transmitter 
+└── rx_enable → Receiver 
 ```
 ---
 
