@@ -12,8 +12,7 @@ The design was simulated using **Icarus Verilog** and **GTKWave**.
 
 ## UART Frame Format
 Idle → Start → D0 → D1 → D2 → D3 → D4 → D5 → D6 → D7 → Stop
-1 0 LSB --------------------------> MSB 1
-
+  1      0      LSB --------------------------> MSB     1
 
 ---
 
