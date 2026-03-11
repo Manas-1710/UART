@@ -92,9 +92,10 @@ The testbench performs the following tasks:
 - Displays received data
 
 Example transmitted data:
+```text
 0x41 (ASCII 'A')
 0x55
-
+```
 
 ---
 
